@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "947062750024",
+    "project_id": "mlem-fcbba",
+    "storage_bucket": "mlem-fcbba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947062750024:android:4dc6c0086c13b0ccd5117d",
+        "android_client_info": {
+          "package_name": "com.example.mlem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "947062750024-q8nhefeiq83erllktklc9v0jtc1moc6q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mlem",
+            "certificate_hash": "50c3ac182a7eafe237dbc3e9f58711cb9d241636"
+          }
+        },
+        {
+          "client_id": "947062750024-hn30adr0cf3h22j4r8m2lb5ovh9i8uk2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGusmKNWJcRpv9PNcGWkuByj1IME2FY3E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "947062750024-hn30adr0cf3h22j4r8m2lb5ovh9i8uk2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

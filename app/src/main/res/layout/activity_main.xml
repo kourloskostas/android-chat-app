@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@drawable/shadow"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="74dp"
+            android:layout_height="22dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="7dp"
+            android:layout_marginBottom="19dp"
+            android:layout_toEndOf="@+id/avatarMain"
+            android:alpha="6"
+            android:fontFamily="sans-serif-medium"
+            android:shadowColor="#00353030"
+            android:shadowDx="6"
+            android:shadowDy="6"
+            android:shadowRadius="6"
+            android:text="Groups"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/avatarMain" />
+
+        <View
+            android:id="@+id/avatarMain"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/circle"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/avatarTextMain"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignStart="@+id/avatarMain"
+            android:layout_alignTop="@+id/avatarMain"
+            android:layout_alignEnd="@+id/avatarMain"
+            android:layout_alignBottom="@+id/avatarMain"
+            android:layout_marginStart="0dp"
+            android:gravity="center"
+            android:text="FU"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout" />
+
+    <ImageButton
+        android:id="@+id/addGroup"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:adjustViewBounds="false"
+        android:background="@null"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_add" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
