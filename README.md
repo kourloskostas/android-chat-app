@@ -4,21 +4,18 @@ An andoroid chat app made in Android Studio using Google Firebase realtime datab
 The app contains 3 basic activities , Register/Login | Main (Groups) | Chat
 
 Register/Login:
-<img src="Preview/login.jpg" width="100" height="100"/>
- ![Screenshot](Preview/login.jpg)
-
- ![Screenshot](Preview/register.jpg)
+<img src="Preview/login.jpg" width="400" height="700"/>
+ 
+<img src="Preview/register.jpg" width="400" height="700"/>
 
 
 Main:
- ![Screenshot](Preview/groups.jpg)
-
- ![Screenshot](Preview/add-group.jpg)
-
+<img src="Preview/groups.jpg" width="400" height="700"/>
+<img src="Preview/add-group.jpg" width="400" height="700"/>
 
 
 Chat:
- ![Screenshot](Preview/chat.jpg)
- 
- 
-  ![Screenshot](Preview/chat2.jpg)
+<img src="Preview/chat.jpg" width="400" height="700"/>
+
+<img src="Preview/chat2.jpg" width="400" height="700"/>
+
